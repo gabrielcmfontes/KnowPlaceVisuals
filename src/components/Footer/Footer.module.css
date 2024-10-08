@@ -1,0 +1,137 @@
+  .darkPart{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    color: #b1aeae;
+    padding: 30px;
+  }
+
+  .lightPart{
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    color: #b1aeae;
+    padding: 30px;
+  }
+  
+  
+  /* Footer Top */
+  .dadTop {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .section img{
+    user-select: none;
+    -webkit-user-drag: none; /* Impede o arrasto no Safari */
+    -webkit-touch-callout: none; /* Impede o menu de contexto no iOS */
+  }
+  
+  .topSection span {
+    font-size: 2.3vh;
+  }
+  
+  .topSection div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topSection img {
+    width: 80px;
+  }
+  
+  .topSection {
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  
+  .barr {
+    width: 85%;
+    border-top: 3px solid #b1aeae;
+    margin: 0 auto;
+  }
+  
+  /* Footer Middle */
+  .middleSection {
+    background-color: #22222222;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .middleSection a{
+    text-decoration: none;
+  }
+  
+  .middleSection div {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+  }
+  
+  .middleSection a {
+    font-size: 2.5vh;
+    color: #726f6f;
+  }
+  
+  .btnSub {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btnSub input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btnSub button {
+    position: absolute;
+    scale: 1.;
+    top: 9px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .btnSub button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Footer Bottom */
+  .bottomSection {
+    background-color: #272727;
+  }
+  
+  .LinkedinLogo {
+    width: 60px;
+  }
+  
+  .ArrowLeft {
+    width: 60px;
+  }
+  
+  .ArrowLeftBox {
+    margin-right: -200px;
+    margin-left: 200px;
+  }
+  
+  .bottomSection div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  

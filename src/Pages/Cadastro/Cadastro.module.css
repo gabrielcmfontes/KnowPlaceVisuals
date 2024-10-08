@@ -1,0 +1,71 @@
+.containerCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #202020;
+}
+
+.loginBox {
+    background-color: #2545fe;
+    font-size: 20px;
+    padding: 4rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginFormGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formField {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.formError {
+    color: #ff3865;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #2545fe;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 105%; 
+}
+
+.button:hover {
+    background-color: #3865ff;
+}
+
+.registerPrompt {
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.registerLink {
+    color: #ffffff;
+    text-decoration: underline;
+}

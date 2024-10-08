@@ -1,0 +1,41 @@
+.Navbar{
+    justify-content: space-between;
+    margin: 0px 15px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Navbar h2{
+    padding-left: 30px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.Navbar img{
+    padding-top: 5px;
+    width: 70px;
+    height: 60px;
+
+}
+
+.Navbar ul{
+    display: flex;
+}
+
+.Navbar a{
+    margin: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.Button{
+    background-color: #111f6f;
+    padding: 10px 50px;
+    color: #ffff;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}

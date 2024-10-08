@@ -1,0 +1,40 @@
+.About{
+    display: flex;
+    align-items: center;
+    padding: 15vh 15vh;
+    gap: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    background-color: #1e4ef8;
+}
+
+.About h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.About img{
+    padding-right: 30px;
+    max-width: 600px;
+}
+
+.About p{
+    max-width: 900px;
+    font-size: 3vh;
+}
+
+.About button{
+    padding: 18px 40px;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #390796;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.About button:hover{
+    background-color: #4d0f96;
+}

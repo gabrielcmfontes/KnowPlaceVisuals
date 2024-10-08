@@ -1,0 +1,43 @@
+.Recommendation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e4ef8;
+    padding: 50px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .RecoText {
+    flex: 1;
+    margin-right: -200px; /* Adjusted margin */
+    text-align: right; /* Keep text aligned left */
+  }
+  
+  .RecoImage {
+    flex: 1;
+    text-align: right; /* Align image to the right */
+  }
+  
+  .Recommendation p {
+    font-size: 3vh;
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  
+  .Recommendation img {
+    max-width: 70%; /* Ensure image does not exceed container width */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .Recommendation .highlight {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffd700;
+    margin-top: 20px;
+  }
+  

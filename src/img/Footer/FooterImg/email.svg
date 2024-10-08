@@ -1,0 +1,6 @@
+<svg width="95" xmlns="http://www.w3.org/2000/svg" height="92" fill="none">
+  <g style="fill: rgb(0, 0, 0);">
+    <ellipse cx="47.5" cy="46" rx="43.542" ry="42.167" style="fill: rgb(37, 69, 254);" class="fills"/>
+    <path d="M61.6 32H33.4c-2 0-3.6 1.53-3.6 3.4v20.4c0 1.87 1.6 3.4 3.6 3.4h28.2c2 0 3.6-1.53 3.6-3.4V35.4c0-1.87-1.6-3.4-3.6-3.4Zm0 6.8L48 45.953 33.4 38.8v-3.4L48 42.553 61.6 35.4v3.4Z" style="fill: rgb(255, 255, 255);" class="fills"/>
+  </g>
+</svg>
